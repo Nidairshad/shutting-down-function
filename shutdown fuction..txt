@@ -1,0 +1,9 @@
+n = input ("Do you want to shutdown your system ?, type 'yes' or 'no'.")
+def s():
+    if n == 'yes':
+           print("shutting down")
+    elif n == 'no':
+           print ("shutdown aborted")
+    else:
+           print ("Sorry , please type again 'yes' or 'no'.")
+s()
